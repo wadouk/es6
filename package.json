@@ -1,0 +1,15 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "bootstrap-es6.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers js:babel/register *.mocha.js",
+    "start": "node bootstrap-es6.js"
+  },
+  "dependencies": {
+    "babel": "5.8.21",
+    "expect": "^1.13.4",
+    "expect.js": "^0.3.1",
+    "mocha": "2.2.5"
+  }
+}
